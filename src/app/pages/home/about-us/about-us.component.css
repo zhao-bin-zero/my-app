@@ -1,0 +1,13 @@
+.bg-about-us{
+  background: #d3d2d2;
+}
+.zero-list{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.zero-list li{
+  padding: 4px 0;
+}
+.zero-marginB-20{
+  margin-bottom: 20px;
+}

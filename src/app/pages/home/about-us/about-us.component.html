@@ -1,0 +1,21 @@
+<div class="bg-about-us">
+  <div class="container">
+    <title-content [titleConData]="titleContent"></title-content>
+    <div class="row align-items-center zero-padding-bottom-50">
+      <div class="col-12 col-md-6">
+        <p>{{ aboutUs?.contentAss }}</p>
+        <ul class="zero-list font-weight-bold">
+          <li *ngFor="let item of aboutUs?.contentList">{{ item }}</li>
+        </ul>
+        <div class="zero-marginB-20">
+          <a attr.routerLink="{{ aboutUs?.moreurl }}">
+            <button  class="btn btn-primary" type="button">了解更多</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <img src="{{ aboutUs?.imgSrc }}" class="card-img-top" alt="{{ aboutUs?.imgAlt }}">
+      </div>
+    </div>
+  </div>
+</div>

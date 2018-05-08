@@ -1,0 +1,20 @@
+<div class="bg-dark text-white">
+  <div class="container">
+    <div class="row zero-padd-50">
+      <div class="col-12 col-md-6 zero-contact-left">
+        <h4>{{ contactUs?.title }}</h4>
+        <p class="company-name">{{ contactUs?.companyName }}</p>
+        <p class="company-address">{{ contactUs?.companyAddress }}</p>
+        <p>
+          {{ contactUs?.companyPhone }}
+        </p>
+        <p>{{ contactUs?.companyEmail }}</p>
+      </div>
+      <div class="col-12 col-md-6 zero-contact-right d-flex justify-content-end align-items-end">
+        <div class="contact-way" *ngFor="let item of contactUs?.companyContactWay">
+          <img src="{{ item.imgSrc }}" class="card-img-top" alt="{{ item.imgAlt }}" title="{{ item.imgTit }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
