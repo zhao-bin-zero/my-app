@@ -5,3 +5,8 @@
   width: 80px;
   height: 80px;
 }
+.zero-card .card-title{
+  font-weight: bold;
+  margin-bottom: 34px;
+  padding-top: 5px;
+}

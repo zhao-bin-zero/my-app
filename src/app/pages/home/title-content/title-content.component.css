@@ -1,8 +1,12 @@
 .zero-title{
-  margin: 40px 0 18px 0;
+  margin: 52px 0 28px 0;
 }
 .zero-title h4{
+  letter-spacing: 10px;
   margin-bottom: 0;
+}
+.zero-title h5{
+  letter-spacing: 6px;
 }
 .zero-content{
   margin-bottom: 45px;

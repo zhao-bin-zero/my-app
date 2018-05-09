@@ -6,9 +6,7 @@ export class Slideshow {
   ) {}
 }
 export const SLIDESHOW: Slideshow[] = [
-  new Slideshow('#', 'assets/images/camera1.jpg', 'baidu'),
-  new Slideshow('#', 'assets/images/camera1.jpg', 'baidu'),
-  new Slideshow('#', 'assets/images/camera1.jpg', 'baidu')
+  new Slideshow('#', 'assets/images/banner-A.jpg', '易联世界 移动生活')
 ];
 // 了解更多
 export class LearnMore {
@@ -60,24 +58,22 @@ export const HOMECONTENT: HomeContent = {
    titleContent: {
      title: '我们的服务',
      titleEng: 'our services',
-     content: '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网' +
-     '公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公' +
-     '司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司'
+     content: '我们相信：易哥游戏会给你带来无穷的娱乐享受,体验无限制,手游,TV游戏畅通互联。我们相信：易哥游戏,视频加速可以很简单，一键超快链接，突破网络限制,畅快的征服,无时无处随时看。'
    },
     card: [{
-      cardImgSrc: 'assets/images/camera1.jpg',
+      cardImgSrc: 'assets/images/service1.png',
       cardTitle: '易哥游戏',
       cardContent: '易哥提供精品的游戏,手机游戏,TV游戏给你完美的享受!\n'
     }, {
-      cardImgSrc: 'assets/images/camera1.jpg',
+      cardImgSrc: 'assets/images/service2.png',
       cardTitle: '易哥游戏加速器',
       cardContent: '易哥游戏加速器针对网络游戏加速,解决外服游戏的延迟高、登录难、频掉线等问题，保证流畅的游戏环境。\n'
     }, {
-      cardImgSrc: 'assets/images/camera1.jpg',
+      cardImgSrc: 'assets/images/service3.png',
       cardTitle: '易哥视频加速器',
       cardContent: '易哥视频加速器针对网络视频加速,一键超快链接，突破网络限制，视频无时无处随处看'
     }, {
-      cardImgSrc: 'assets/images/camera1.jpg',
+      cardImgSrc: 'assets/images/service4.png',
       cardTitle: '易哥流量',
       cardContent: '为外国友人提供优质的访问网络服务。'
     }]
@@ -90,7 +86,7 @@ export const HOMECONTENT: HomeContent = {
     },
     contentAss: '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网',
     contentList: ['易哥科技成立于是一家高级科技互联网公司易哥科技成立于是', '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是', '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是'],
-    imgSrc: 'assets/images/camera1.jpg',
+    imgSrc: 'assets/images/liaojie.jpg',
     imgAlt: '北京易哥科技',
     moreurl: '#'
   },
@@ -101,14 +97,14 @@ export const HOMECONTENT: HomeContent = {
       content: '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网',
     },
     cooperativePartner: [
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg',
-      'assets/images/camera1.jpg'
+      'assets/images/yidong.jpg',
+      'assets/images/dianxin.jpg',
+      'assets/images/liantong.jpg',
+      'assets/images/ccn.jpg',
+      'assets/images/youzhong.jpg',
+      'assets/images/wangyi.png',
+      'assets/images/tenxun.jpg',
+      'assets/images/94pk.jpg'
     ]
   }
 };
