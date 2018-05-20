@@ -8,7 +8,7 @@ import {GameSwiftComponent} from "./game-swift/game-swift.component";
 
 const routes: Routes = [
   {
-    path: 'advertise',
+    path: '',
     component: PageComponent,
     children: [{
         path: 'index',
@@ -29,7 +29,7 @@ const routes: Routes = [
       }
     ],
   },
-  { path: '', redirectTo: 'advertise', pathMatch: 'full' },
+  { path: '', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({

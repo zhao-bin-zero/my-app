@@ -5,16 +5,17 @@ export class Navigation {
   ) {}
 }
 export const NAVIGATION: Navigation[] = [
-  new Navigation('首页', '/eggwifi/advertise/index'),
-  // new Navigation( '易哥游戏', '/eggwifi/advertise/egg-game'),
-  new Navigation( '易哥游戏', 'http://www.haves-cinda.com/game/#/')
+  new Navigation('首页', '/index'),
+  // new Navigation( '易哥游戏', '/egg-game'),
+  new Navigation( '易哥游戏', 'http://www.haves-cinda.com/game')
 ];
 
 export class LogoImg {
     logoImg: string;
     logoAlt: string;
+    logoUrl: string;
 }
-export const LOGOIMG: LogoImg = { logoImg: 'assets/images/logo.png', logoAlt: '北京易哥科技' }
+export const LOGOIMG: LogoImg = { logoImg: 'assets/images/logo.png', logoAlt: '北京易哥科技', logoUrl: '/index' };
 
 export class ContactWay {
   imgSrc: string;

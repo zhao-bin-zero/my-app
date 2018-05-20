@@ -3,11 +3,11 @@ import {NgModule} from "@angular/core";
 
 const routes: Routes = [
   {
-    path: 'eggwifi',
+    path: '',
     loadChildren: './pages/page.module#PageModule'
   },
-  { path: '', redirectTo: 'eggwifi', pathMatch: 'full' },
-  { path: '**', redirectTo: 'eggwifi' },
+  { path: '', redirectTo: '', pathMatch: 'full' },
+  { path: '**', redirectTo: '' },
 ];
 
 const config: ExtraOptions = {

@@ -17,6 +17,11 @@ export class OurServicesComponent implements OnInit {
       data => { this.ourService = data.ourServices; this.titleContent = data.ourServices.titleContent; }
     );
   }
+  downloadExe(url) {
+    if (url !== '') {
+      location.href = url;
+    }
+  }
   ngOnInit() {
     this.getOurServicesData();
   }

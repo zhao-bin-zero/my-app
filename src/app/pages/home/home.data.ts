@@ -18,6 +18,7 @@ export class LearnMore {
 export class OurServicesCard {
   cardImgSrc: string;
   cardTitle: string;
+  cardUrl: string;
   cardContent: string;
 }
 export class OurServices {
@@ -63,18 +64,22 @@ export const HOMECONTENT: HomeContent = {
     card: [{
       cardImgSrc: 'assets/images/service1.png',
       cardTitle: '易哥游戏',
+      cardUrl: 'http://www.haves-cinda.com/game',
       cardContent: '易哥提供精品的游戏,手机游戏,TV游戏给你完美的享受!\n'
     }, {
       cardImgSrc: 'assets/images/service2.png',
       cardTitle: '易哥游戏加速器',
+      cardUrl: 'assets/exe/yige.exe',
       cardContent: '易哥游戏加速器针对网络游戏加速,解决外服游戏的延迟高、登录难、频掉线等问题，保证流畅的游戏环境。\n'
     }, {
       cardImgSrc: 'assets/images/service3.png',
       cardTitle: '易哥视频加速器',
+      cardUrl: '',
       cardContent: '易哥视频加速器针对网络视频加速,一键超快链接，突破网络限制，视频无时无处随处看'
     }, {
       cardImgSrc: 'assets/images/service4.png',
       cardTitle: '易哥流量',
+      cardUrl: '',
       cardContent: '为外国友人提供优质的访问网络服务。'
     }]
   },
@@ -82,10 +87,10 @@ export const HOMECONTENT: HomeContent = {
     titleContent: {
       title: '关于我们',
       titleEng: 'About us',
-      content: '易哥科技成立于2014年3月，是一家专注于提供移动数据互联解决方案的高新技术企业，在游戏、游戏加速、视频加速、出入境流量领域都有所建树。我们秉承客户至上的宗旨，提供最优质的服务。',
+      content: '北京易哥科技有限公司是一家高新技术互联网公司，我们的理念是诚信、务实、专业、高效，我们的服务宗旨是客户至上。',
     },
-    contentAss: '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网',
-    contentList: ['易哥科技成立于是一家高级科技互联网公司易哥科技成立于是', '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是', '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是'],
+    contentAss: '易哥科技成立于2014年3月，专注于提供移动数据互联解决方案，在游戏、游戏加速、视频加速、出入境流量领域都有所建树。',
+    contentList: ['易哥提供精品的手机游戏、TV游戏、休闲娱乐游戏，给你完美的游戏体验！', '游戏加速器主要解决网络游戏的高延迟、登录难、掉线频等问题，为流畅的游戏保驾护航！', '视频加速器主要解决视频卡顿、延时等问题，保证视频的流畅！', '流量卡实现一卡多用、一机多用，实现流量的多国、多地区漫游，是出入境旅行的最佳选择！'],
     imgSrc: 'assets/images/liaojie.jpg',
     imgAlt: '北京易哥科技',
     moreurl: '#'
@@ -94,7 +99,7 @@ export const HOMECONTENT: HomeContent = {
     titleContent: {
       title: '我们的合作商',
       titleEng: 'Our clients',
-      content: '易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网公司易哥科技成立于是一家高级科技互联网',
+      content: '',
     },
     cooperativePartner: [
       'assets/images/yidong.jpg',
